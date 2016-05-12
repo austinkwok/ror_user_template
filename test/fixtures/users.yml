@@ -4,3 +4,10 @@ austin:
   last_name: example
   email: austin@example.com
   password_digest: <%= User.digest('password') %>
+  admin: true
+
+archer:
+  first_name: Sterling
+  last_name: Archer
+  email: duchess@example.gov
+  password_digest: <%= User.digest('password') %>

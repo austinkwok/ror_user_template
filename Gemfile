@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'rails',                '4.2.5'
 gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 gem 'bootstrap-sass',       '3.2.0.0'
+gem 'faker',                   '1.4.2'
 # Use postgresql as the database for Active Record
 gem 'pg',                   '~> 0.18.4'
 # Use SCSS for stylesheets
